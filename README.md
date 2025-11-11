@@ -1,6 +1,8 @@
 # build-cpu-miner-android
 
-pkg install git build-essential automake autoconf pkg-config libcurl openssl libssl-dev libjansson libjansson-dev libgmp libgmp-dev zlib zlib-dev -y
+pkg update && pkg upgrade -y
+pkg install git automake autoconf pkg-config libcurl libjansson libssl libgmp zlib clang make -y
+
 
 
 git clone https://github.com/JayDDee/cpuminer-opt.git
